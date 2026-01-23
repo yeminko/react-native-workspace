@@ -1,4 +1,3 @@
-import MealItem from "../components/MealItem";
 import { CATEGORIES, MEALS } from "../data/dummy-data";
 import { useEffect, useLayoutEffect } from "react";
 import MealsList from "../components/MealList/MealsList";
