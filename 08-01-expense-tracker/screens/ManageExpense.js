@@ -15,7 +15,7 @@ export default function ManageExpense({ route, navigation }) {
   }, [navigation, isEditing]);
 
   function deleteExpenseHandler() {
-    // Delete expense logic
+    navigation.goBack();
   }
 
   function cancelHandler() {
@@ -23,7 +23,7 @@ export default function ManageExpense({ route, navigation }) {
   }
 
   function confirmHandler() {
-    // Confirm (add or update) expense logic
+    navigation.goBack();
   }
 
   return (
